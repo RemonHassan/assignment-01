@@ -318,7 +318,7 @@ background-color: rgba(255, 223, 0, 0.05);
 
 /* footer design starts here */
 
-footer{
+.footer{
     width: 1140px;
     height: 313px;
     margin: 0 auto;
@@ -381,6 +381,28 @@ footer{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+
+.social-links{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto; 
+    margin-top: 110px; 
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.social-links-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
 }
 
 /* footer design ends here */
