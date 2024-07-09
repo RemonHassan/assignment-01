@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+body{
+    font-family: "Azeret Mono", monospace;    
+}
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -17,10 +20,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 100px;
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
 }
 .nav-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family:Azeret Mono;
     font-size: 28px;
     font-weight: 800;    
 }
@@ -41,8 +47,52 @@ nav button{
     font-size: 20px;
     font-weight: 600;
 }
-nav li a{
-
-}
 
 /* nav styles ends here */
+
+/* banner design start here */
+
+.banner{
+    width: 1440px;
+    height: 652px;
+    border: 2px dashed grey;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+}
+.banner-container{
+    width: 998px;
+    height: 582px;
+    margin: 26px 221px 44px 221px;
+    text-align: center;
+}
+.image{
+    width: 240.28px;
+    height: 240px;
+}
+#developer{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-container button{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+.contact-me{
+    width: 160px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* banner design ends here */
